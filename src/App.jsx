@@ -6,6 +6,7 @@ import About from './Components/About/About'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
 import Framwork from './Components/Framwork/Framwork'
+import NotFound from './Components/NotFound/NotFound'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       {path:"Portfolio", element: <Portfolio />},
       {path:"Contact", element: <Contact />},
       {index: true, element: <Framwork />},
+      {path:"*", element: <NotFound />}
     ]}
   ])
   
