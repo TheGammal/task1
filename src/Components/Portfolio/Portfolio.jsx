@@ -35,7 +35,7 @@ export default function Portfolio() {
     return (
         <div className='bg-white p-6 absolute top-[68px] z-0 left-0 w-full flex flex-col justify-center items-center text-[#2c3e50] min-h-screen'>
             <div className='container text-center mt-20'>
-                <h2 className='text-4xl font-bold mb-4'>PORTFOLIO COMPONENT</h2>
+                <h2 className='text-4xl font-bold mb-4'>PORTFOLIOO COMPONENT</h2>
                 <div className='flex justify-center items-center w-full mb-4'>
                     <div className='w-1/12 border-t-4 border-[#2c3e50]'></div>
                     <i className='fa-solid fa-star mx-2 text-[#2c3e50]'></i>
